@@ -94,8 +94,8 @@ Sensor resistivo que disminuye su resistencia cuando aumenta la intensidad de lu
 
 Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por millon). Representa la presencia de contaminantes en el aire.
 
-<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/1d6c2b44f4d170b0b2ed779770202c63bb014292/imagenes/sensor_gas.png">
-    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/1d6c2b44f4d170b0b2ed779770202c63bb014292/imagenes/sensor_gas.png" width="600" />
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/216f931204bfd0a22190bd0926c1d9f73af283aa/imagenes/sensor_gas.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/216f931204bfd0a22190bd0926c1d9f73af283aa/imagenes/sensor_gas.png" width="600" />
 </a>
 
 ### Potenciómetros
