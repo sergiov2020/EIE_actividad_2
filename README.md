@@ -40,6 +40,12 @@ Desarrollar una estación de monitorización ambiental modular capaz de visualiz
 
 ## Diagrama de Conexiones
 
+
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/1dedea211f7b8844a6fb23307607c5f3c0e5c49d/imagenes/imagen_general.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/1dedea211f7b8844a6fb23307607c5f3c0e5c49d/imagenes/imagen_general.png" width="600" />
+</a>
+
+
 | Componente        | Pin ESP32                                |
 | ----------------- | ---------------------------------------- |
 | DHT22             | GPIO 21                                  |
@@ -105,6 +111,32 @@ Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por mil
 <a href="https://github.com/sergiov2020/EIE_actividad_2/blob/1d6c2b44f4d170b0b2ed779770202c63bb014292/imagenes/pot_simul_int_viento.png">
     <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/1d6c2b44f4d170b0b2ed779770202c63bb014292/imagenes/pot_simul_int_viento.png" width="300" />
 </a>
+
+
+# Bill of Materials
+
+| Quantity | Component                          | Description/Attributes                          |
+|----------|------------------------------------|--------------------------------------------------|
+| 1        | ESP32 Devkit C V4                  | Microcontroller board                            |
+| 1        | LCD1602 (I2C)                      | 16x2 LCD display with I2C interface              |
+| 1        | NTC Temperature Sensor             | Beta: 3950, Initial Temp: 33°C                   |
+| 1        | Photoresistor Sensor               | Light-dependent resistor                         |
+| 1        | DHT22                              | Temperature and humidity sensor                  |
+| 1        | MQ Gas Sensor                      | Air quality sensor                               |
+| 2        | Relay Module                       | Single channel relay modules                     |
+| 2        | LED (Red)                          | Indicator LED                                    |
+| 2        | Resistor 470Ω                      | For LEDs                                         |
+| 2        | Resistor 2.2kΩ                     | I2C pull-up resistors                            |
+| 10       | Resistor 330Ω                      | For LED bar graph                                |
+| 1        | Analog Joystick                    | Wind direction simulation                        |
+| 1        | Slide Potentiometer                | Wind intensity simulation                        |
+| 1        | Pushbutton                         | Green button, debounced                          |
+| 1        | LED Bar Graph                      | 10-segment, color: BCYR                          |
+| -        | Jumper Wires                       | For all connections                              |
+| -        | Wokwi Text Labels (x10+)           | Visual annotations (not physical components)     |
+
+
+
 
 ## Explicación del Código Fuente
 
