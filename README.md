@@ -159,6 +159,9 @@ El código está escrito en C++ y se ha utilizado Wokwi para su simulación. Inc
 4. Según la temperatura de la batería, se activa el calefactor o el enfriador con control de zona muerta.
 5. La información se presenta en la pantalla LCD y en el monitor serial.
 
+![Transiciones Pantalla](https://github.com/sergiov2020/EIE_actividad_2/blob/a192c429d6dfa0a08006e8415c0dc93e112881ef/imagenes/lcd.gif)
+
+
 ## Análisis Detallado de Funciones
 
 ### debounceCount()
