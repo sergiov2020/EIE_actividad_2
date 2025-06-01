@@ -64,22 +64,47 @@ Desarrollar una estación de monitorización ambiental modular capaz de visualiz
 
 Sensor digital que mide temperatura y humedad relativa. Alta precisión y estabilidad. Interfaz de un solo pin digital.
 
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/285353355614466423bae598e0b3646343a13b52/imagenes/actuador_relay.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/285353355614466423bae598e0b3646343a13b52/imagenes/actuador_relay.png" width="300" />
+</a>
+
 ### NTC (Negative Temperature Coefficient)
 
 Termistor que reduce su resistencia a mayor temperatura. Conectado con divisor resistivo para lectura por entrada analógica.
+
+<a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png">
+    <img src="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png" width="300" />
+</a>
 
 ### LDR
 
 Sensor resistivo que disminuye su resistencia cuando aumenta la intensidad de luz. Se usa con un divisor de tensión y se mide por una entrada analógica del microcontrolador.
 
+<a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png">
+    <img src="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png" width="300" />
+</a>
+
 ### Sensor de Gas
 
 Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por millon). Representa la presencia de contaminantes en el aire.
 
+<a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png">
+    <img src="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png" width="300" />
+</a>
+
 ### Potenciómetros
 
 * **Dirección del viento:** dos ejes (vertical y horizontal) a traves de un joystick que simula la dirección del viento.
+
+<a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png">
+    <img src="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png" width="300" />
+</a>
+
 * **Intensidad del viento:** valor analógico proporcional a traves de un potenciometro lineal
+
+<a href="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png">
+    <img src="https://smartknob-artifacts.s3.us-west-1.amazonaws.com/master/electronics/view_base-front-3d.png" width="300" />
+</a>
 
 ## Explicación del Código Fuente
 
