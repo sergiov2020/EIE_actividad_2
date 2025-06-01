@@ -74,6 +74,8 @@ Sensor digital que mide temperatura y humedad relativa. Alta precisión y estabi
     <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/1d6c2b44f4d170b0b2ed779770202c63bb014292/imagenes/Captura%20desde%202025-06-01%2021-46-28.png" width="300" />
 </a>
 
+[datasheet dht22](https://cdn.sparkfun.com/assets/f/7/d/9/c/DHT22.pdf)
+
 ### NTC (Negative Temperature Coefficient)
 
 Termistor que reduce su resistencia a mayor temperatura. Conectado con divisor resistivo para lectura por entrada analógica.
