@@ -38,13 +38,13 @@ Desarrollar una estación de monitorización ambiental modular capaz de visualiz
 * Leds indicadores de funcionamiento de calefactor/enfriador
 * Resistencias y conexiones necesarias
 
-## Diagrama de Conexiones
-
+# Esquematico del circuito
 
 <a href="https://github.com/sergiov2020/EIE_actividad_2/blob/1dedea211f7b8844a6fb23307607c5f3c0e5c49d/imagenes/imagen_general.png">
     <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/1dedea211f7b8844a6fb23307607c5f3c0e5c49d/imagenes/imagen_general.png" width="600" />
 </a>
 
+## Diagrama de Conexiones
 
 | Componente        | Pin ESP32                                |
 | ----------------- | ---------------------------------------- |
