@@ -167,11 +167,11 @@ Evita rebotes en la lectura del botón utilizando un umbral de tiempo. Increment
 
 ### luxMonitoring()
 
-Lee el valor del LDR, calcula lux aproximado y enciende una cantidad proporcional de LEDs.
+Lee el valor del LDR, calcula lux aproximado y enciende una cantidad proporcional de LEDs. El sistema de control enciende mayor número de leds cuando la intensidad luminosa es menor.
 
 ### batteryTempMonitoring()
 
-Lee temperatura con un NTC, convierte el valor de la entrada analógica en grados Celsius usando fórmula de Steinhart-Hart. Controla el calefactor o enfriador.
+Lee temperatura con un NTC, convierte el valor de la entrada analógica en grados Celsius usando fórmula de Steinhart-Hart. Controla el calefactor/enfriador a través de un algoritmo discontinuo de 3 posiiones sin histeresis pero con zona muerta.
 
 ### ldrMonitoring()
 
