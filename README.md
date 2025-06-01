@@ -115,26 +115,23 @@ Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por mil
 
 # Bill of Materials
 
-| Quantity | Component                          | Description/Attributes                          |
-|----------|------------------------------------|--------------------------------------------------|
-| 1        | ESP32 Devkit C V4                  | Microcontroller board                            |
-| 1        | LCD1602 (I2C)                      | 16x2 LCD display with I2C interface              |
-| 1        | NTC Temperature Sensor             | Beta: 3950, Initial Temp: 33°C                   |
-| 1        | Photoresistor Sensor               | Light-dependent resistor                         |
-| 1        | DHT22                              | Temperature and humidity sensor                  |
-| 1        | MQ Gas Sensor                      | Air quality sensor                               |
-| 2        | Relay Module                       | Single channel relay modules                     |
-| 2        | LED (Red)                          | Indicator LED                                    |
-| 2        | Resistor 470Ω                      | For LEDs                                         |
-| 2        | Resistor 2.2kΩ                     | I2C pull-up resistors                            |
-| 10       | Resistor 330Ω                      | For LED bar graph                                |
-| 1        | Analog Joystick                    | Wind direction simulation                        |
-| 1        | Slide Potentiometer                | Wind intensity simulation                        |
-| 1        | Pushbutton                         | Green button, debounced                          |
-| 1        | LED Bar Graph                      | 10-segment, color: BCYR                          |
-| -        | Jumper Wires                       | For all connections                              |
-| -        | Wokwi Text Labels (x10+)           | Visual annotations (not physical components)     |
-
+| Cantidad | Componente                          | Descripción                                          |
+|----------|-------------------------------------|------------------------------------------------------|
+| 1        | ESP32 DevKit-C V4                   | Placa de desarrollo con WiFi y Bluetooth             |
+| 1        | LCD 16x2 con interfaz I2C           | Display LCD con interfaz I2C                         |
+| 1        | Sensor de temperatura NTC           | Sensor de temepratura NTC                            |
+| 1        | Fotoresistor                        | Sensor de luz (LDR)                                  |
+| 1        | Sensor DHT22                        | Sensor de temperatura y humedad                      |
+| 1        | Sensor de gas                       | Sensor de calidad de aire                            |
+| 2        | Módulo relay                        | Módulo de relé para control de calefactor/enfriador  |
+| 2        | LED (rojo)                          | Diodo emisor de luz color rojo                       |
+| 2        | Resistencia 470Ω                    | Para los LEDs conectados al relé                     |
+| 1        | Joystick analógico                  | Control tipo palanca con eje X/Y                     |
+| 1        | Potenciómetro deslizante            | Control de entrada analógica (slide pot)             |
+| 2        | Resistencia 2.2kΩ                   | Resistencias pull-up para I2C                        |
+| 1        | Pulsador (verde)                    | Botón con rebote activado                            |
+| 1        | Gráfico de barra LED (10 segmentos) | Módulo con 10 LEDs de colores                        |
+| 10       | Resistencias 330Ω                   | Para el gráfico de barra LED                         |
 
 
 
