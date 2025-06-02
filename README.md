@@ -218,7 +218,7 @@ Evalúa la aceleración en los tres ejes y expresa en el display LCD el valor de
 
 1. Abrir el proyecto en Wokwi.
 2. Observar los LEDs y la pantalla LCD.
-3. Usar el botón para cambiar entre los 6 modos de visualización.
+3. Usar el botón para cambiar entre los 7 modos de visualización.
 4. Usar potenciómetros para simular cambios en sensores.
 5. Visualizar los resultados en el LCD y monitor serie.
 
@@ -232,4 +232,4 @@ Evalúa la aceleración en los tres ejes y expresa en el display LCD el valor de
 
 ## Conclusión
 
-El sistema de monitorización climática propuesto permite observar múltiples variables ambientales en tiempo real. Su diseño modular facilita su comprensión, extensión y adaptación a escenarios reales. Además, su integración en Wokwi permite probarlo sin necesidad de hardware físico.
+El sistema de monitorización climática propuesto permite observar múltiples variables ambientales en tiempo real. Su diseño modular facilita su comprensión, extensión y adaptación a escenarios reales. Además, su integración en Wokwi permite probarlo sin necesidad de hardware físico. Como se indicaba en la actividad se ha implementado un sistema de control para la medición de la temperatura de la bateria y en la medida de la intensidad lumínica. Además como recomendación se añadido algún sensor más para que la función del dispositivo sea más completa.
