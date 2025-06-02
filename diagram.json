@@ -139,8 +139,8 @@
     {
       "type": "wokwi-pushbutton",
       "id": "btn1",
-      "top": 102.2,
-      "left": -537.6,
+      "top": -195.4,
+      "left": -19.2,
       "attrs": { "color": "green", "xray": "1", "bounce": "1", "key": "1" }
     },
     { "type": "wokwi-relay-module", "id": "relay2", "top": 413, "left": 297.6, "attrs": {} },
@@ -267,7 +267,7 @@
       "id": "text11",
       "top": -499.2,
       "left": -355.2,
-      "attrs": { "text": "Giroscopio" }
+      "attrs": { "text": "Acelerómetro" }
     }
   ],
   "connections": [
