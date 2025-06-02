@@ -40,8 +40,8 @@ Desarrollar una estación de monitorización ambiental modular capaz de visualiz
 
 # Esquemático del circuito
 
-<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/229bba12b619840353dd756519f9d79b65016654/imagenes/imagen_general.png">
-    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/229bba12b619840353dd756519f9d79b65016654/imagenes/imagen_general.png" width="600" />
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/f3ffef2377a733832e4cda8d6954ea434ab39e11/imagenes/imagen_general.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/f3ffef2377a733832e4cda8d6954ea434ab39e11/imagenes/imagen_general.png" width="600" />
 </a>
 
 ## Diagrama de Conexiones
