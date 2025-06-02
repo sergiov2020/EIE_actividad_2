@@ -40,8 +40,8 @@ Desarrollar una estación de monitorización ambiental modular capaz de visualiz
 
 # Esquemático del circuito
 
-<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/f3ffef2377a733832e4cda8d6954ea434ab39e11/imagenes/imagen_general.png">
-    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/f3ffef2377a733832e4cda8d6954ea434ab39e11/imagenes/imagen_general.png" width="600" />
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/imagen_general.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/imagen_general.png" width="600" />
 </a>
 
 ## Diagrama de Conexiones
@@ -119,8 +119,8 @@ Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por mil
 
 El acelerómetro mide la aceleración lineal que actúa sobre el sensor, en los tres ejes: X, Y y Z, en unidades de m/s² (metros por segundo al cuadrado).
 
-<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/216f931204bfd0a22190bd0926c1d9f73af283aa/imagenes/sensor_gas.png">
-    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/216f931204bfd0a22190bd0926c1d9f73af283aa/imagenes/sensor_gas.png" width="600" />
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/acelerometro.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/acelerometro.png" width="600" />
 </a>
 
 # Bill of Materials
