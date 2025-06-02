@@ -3,12 +3,18 @@
 #include "DHT.h"
 
 
+#include <Adafruit_MPU6050.h>
+#include <Adafruit_Sensor.h>
+
+
+
 #define OPTION_NTC          0
 #define OPTION_LDR          1
 #define OPTION_DHT22        2
 #define OPTION_GAS          3
 #define OPTION_WIND_INT     4
 #define OPTION_WIND_DIR     5 
+#define OPTION_ACCELGYRO    6
 
 
 #define DHTPIN              21      // Pin digital conectado al DHT22
@@ -63,6 +69,8 @@ int ledPinsArray[] = {
   27, 14, 12, 13, 9, 7, 8, 17, 18, 5
 };   // an array of pin numbers to which LEDs are attached
 
+Adafruit_MPU6050 mpu;
+sensors_event_t event;
 
 void setup()
 {
@@ -87,6 +95,12 @@ void setup()
   {
     pinMode(ledPinsArray[iLed], OUTPUT);
   }
+
+  while (!mpu.begin()) {
+    Serial.println("MPU6050 not connected!");
+    delay(1000);
+  }
+  Serial.println("MPU6050 ready!");
 }
 
 void loop()
@@ -98,7 +112,7 @@ void loop()
   if (counter != ISRCounter)
   {
     counter = ISRCounter;
-    selection = counter%6;
+    selection = counter%7;
 
     switch(selection)
     {
@@ -130,7 +144,9 @@ void loop()
         Serial.println("OPTION_WIND_DIR");
         dirMonitoring();
       break;
-
+      case OPTION_ACCELGYRO:
+        Serial.println("OPTION_ACELEROMETER");
+        accelGyroSensoring();
       default:
       Serial.println(selection);
       Serial.println("DEFAULT");
@@ -325,4 +341,36 @@ void dirMonitoring()
     lcd.setCursor(2, 0);
     lcd.print("NO WIND DIR");
   }
+  
+}
+
+void accelGyroSensoring()
+{
+  mpu.getAccelerometerSensor()->getEvent(&event);
+
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  lcd.print("X: ");
+  lcd.setCursor(3, 0);
+  lcd.print(event.acceleration.x);
+  lcd.setCursor(9, 0);
+  lcd.print("Y: ");
+  lcd.setCursor(12, 0);
+  lcd.print(event.acceleration.y);
+  lcd.setCursor(0, 1);
+  lcd.print("Z: ");
+  lcd.setCursor(3, 1);
+  lcd.print(event.acceleration.z);
+  lcd.setCursor(7, 1);
+  lcd.print("m/s^2");
+  
+  Serial.print("[");
+  Serial.print(millis());
+  Serial.print("] X: ");
+  Serial.print(event.acceleration.x);
+  Serial.print(", Y: ");
+  Serial.print(event.acceleration.y);
+  Serial.print(", Z: ");
+  Serial.print(event.acceleration.z);
+  Serial.println(" m/s^2");
 }

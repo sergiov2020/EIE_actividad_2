@@ -115,6 +115,14 @@ Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por mil
 </a>
 
 
+### Acelerómetro
+
+El acelerómetro mide la aceleración lineal que actúa sobre el sensor, en los tres ejes: X, Y y Z, en unidades de m/s² (metros por segundo al cuadrado).
+
+<a href="https://github.com/sergiov2020/EIE_actividad_2/blob/216f931204bfd0a22190bd0926c1d9f73af283aa/imagenes/sensor_gas.png">
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/216f931204bfd0a22190bd0926c1d9f73af283aa/imagenes/sensor_gas.png" width="600" />
+</a>
+
 # Bill of Materials
 
 | Cantidad | Componente                          | Descripción                                          |
@@ -197,6 +205,10 @@ Muestra la intensidad del viento a partir de un valor analógico que se simula c
 ### dirMonitoring()
 
 Evalúa los valores de los ejes vertical y horizontal del viento, simulados a través de un joystick analógico, para determinar su dirección cardinal. 
+
+### accelGyroSensoring()
+
+Evalúa la aceleración en los tres ejes y expresa en el display LCD el valor de cada componente en metro/s²
 
 ## Uso del Sistema
 

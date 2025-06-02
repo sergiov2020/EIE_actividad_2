@@ -253,6 +253,21 @@
       "top": 652.8,
       "left": -9.6,
       "attrs": { "text": "Simulador Iluminación" }
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu1",
+      "top": -447.98,
+      "left": -344.12,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-text",
+      "id": "text11",
+      "top": -499.2,
+      "left": -355.2,
+      "attrs": { "text": "Giroscopio" }
     }
   ],
   "connections": [
@@ -330,7 +345,11 @@
     [ "esp:D0", "bargraph1:A5", "green", [ "h0", "v28.8", "h-19.2", "v163.2" ] ],
     [ "bargraph1:A4", "esp:D1", "green", [ "v-220.8", "h0", "v-67.2", "h19.2", "v-48" ] ],
     [ "bargraph1:A3", "esp:17", "green", [ "v-278.4", "h19.2", "v-57.6" ] ],
-    [ "bargraph1:A2", "esp:18", "green", [ "v-268.8", "h19.2", "v-144", "h-9.6" ] ]
+    [ "bargraph1:A2", "esp:18", "green", [ "v-268.8", "h19.2", "v-144", "h-9.6" ] ],
+    [ "imu1:VCC", "lcd1:VCC", "red", [ "h0" ] ],
+    [ "imu1:GND", "lcd1:GND", "black", [ "h0" ] ],
+    [ "imu1:SCL", "lcd1:SCL", "green", [ "h38.4", "v38.48" ] ],
+    [ "imu1:SDA", "lcd1:SDA", "green", [ "h19.2", "v38.48" ] ]
   ],
   "dependencies": {}
 }
