@@ -122,7 +122,7 @@ Sensor de GAS que analiza el aire y devuelve un resultado en ppm (partes por mil
 El acelerómetro mide la aceleración lineal que actúa sobre el sensor, en los tres ejes: X, Y y Z, en unidades de m/s² (metros por segundo al cuadrado).
 
 <a href="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/acelerometro.png">
-    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/acelerometro.png" width="600" />
+    <img src="https://github.com/sergiov2020/EIE_actividad_2/blob/b5f31767a977388bc2d9e27c48b7d399c03130dc/imagenes/acelerometro.png" width="300" />
 </a>
 
 # Bill of Materials
