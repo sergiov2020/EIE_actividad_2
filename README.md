@@ -61,6 +61,8 @@ Desarrollar una estación de monitorización ambiental modular capaz de visualiz
 | Enfriador         | GPIO 15                                  |
 | Botón             | GPIO 26                                  |
 | LEDs indicadores  | GPIOs 27, 14, 12, 13, 9, 7, 8, 17, 18, 5 |
+| ACELEROMETRO SDA  | GPIO 23                                  |
+| ACELEROMETRO SCL  | GPIO 22                                  |
 
 > Simulado en [Wokwi.com](https://wokwi.com/projects/431310772084770817)
 
@@ -142,6 +144,7 @@ El acelerómetro mide la aceleración lineal que actúa sobre el sensor, en los 
 | 1        | Pulsador (verde)                    | Botón con rebote activado                            |
 | 1        | Gráfico de barra LED (10 segmentos) | Módulo con 10 LEDs de colores                        |
 | 10       | Resistencias 330Ω                   | Para el gráfico de barra LED                         |
+| 1        | Acelerómetro                        | Control de aceleración                               |
 
 
 
@@ -166,6 +169,7 @@ El código está escrito en C++ y se ha utilizado Wokwi para su simulación. Inc
    * Calidad del aire (sensor de gas)
    * Intensidad del viento
    * Dirección del viento
+   * Aceleración de la boya
 4. Según la temperatura de la batería, se activa el calefactor o el enfriador con control de zona muerta.
 5. La información se presenta en la pantalla LCD y en el monitor serial.
 
@@ -208,7 +212,7 @@ Evalúa los valores de los ejes vertical y horizontal del viento, simulados a tr
 
 ### accelGyroSensoring()
 
-Evalúa la aceleración en los tres ejes y expresa en el display LCD el valor de cada componente en metro/s²
+Evalúa la aceleración en los tres ejes y expresa en el display LCD el valor de cada componente en metro/s². Valido para metrologia del mar y posibles temporales.
 
 ## Uso del Sistema
 
